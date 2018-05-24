@@ -1,1 +1,31 @@
 git branchtest4
+
+
+$ git log --graph --pretty=oneline --abbrev-commit
+*   9f8d72f (HEAD -> master) merge with master
+|\
+| *   890d21f (dev) merge with dev
+| |\
+| | *   d29a32d (feature2) merge with feature3
+| | |\
+| | | * 591d5be (feature3) add a new file on feature3
+| |_|/
+|/| |
+* | |   efba293 merge with on-ff on feature2
+|\ \ \
+| | |/
+| |/|
+| * | 547de85 add file on branch feature3.txt
+|/ /
+* |   be51e4d merge with no-ff
+|\ \
+| |/
+| * fcadf44 add branchtest1
+|/
+*   a81d1a9 modify and simple
+|\
+| * 7fb29e1 AND SIMPLE
+* | ace5de4 & simple
+|/
+* 8b0fa00 branch test
+* 9d4b429 (origin/master, origin/HEAD) Initial commit
